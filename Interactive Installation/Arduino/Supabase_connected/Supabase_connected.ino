@@ -10,15 +10,14 @@ LIS3DHTR<TwoWire> LIS;
 const String deviceID = "plant_3"; // CHANGE WHEN CHANGIN ARDUINOS
 
 // WiFi Credentials
-const char* ssid = "antonet";  
-const char* password = "parola123";
+const char* ssid = "";  
+const char* password = "";
 
-// const char* ssid = "Sunrise_4790874";   
-// const char* password = "zsczhjay5gyFyxaV";
+
 
 // Supabase API
-const char* supabaseURL = "https://bhuvkendkwmmnbzkjxsr.supabase.co/rest/v1/sensors_values";  // Table name is sensors_values
-const char* supabaseApiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJodXZrZW5ka3dtbW5iemtqeHNyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDExNzY3OTUsImV4cCI6MjA1Njc1Mjc5NX0.EKYOtg_1rExta0k4UkZGViJg3bup-a3uRrZI1Ih0bzM";
+const char* supabaseURL = "";  
+const char* supabaseApiKey = "";
 
 // Sensor Variables
 float lastMagnitude = 0.0;
